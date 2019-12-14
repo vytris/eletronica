@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 
   #ip{
     width: 200px;
@@ -51,6 +52,11 @@
     padding: 5px;
     outline: none;
     cursor: pointer;
+
+  }
+  .submit{
+    width: 100px;
+    margin-top: 10px;
   }
   
   .button-default:active{
